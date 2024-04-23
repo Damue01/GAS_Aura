@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Aura.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Aura.init.gen.cpp.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacter.gen.cpp.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacterBase.gen.cpp.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Aura.cpp.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacter.cpp.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacterBase.cpp.obj"
+"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Default.rc2.res"
+/OUT:"D:\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura.lib"
