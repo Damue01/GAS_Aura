@@ -17,7 +17,10 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "d:\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacterbase.generated.h",
-            "d:\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.generated.h"
+            "d:\\aura\\source\\aura\\public\\interaction\\enemyinterface.h",
+            "d:\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h",
+            "d:\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.generated.h",
+            "d:\\aura\\source\\aura\\aura.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -76,7 +76,6 @@ void EmptyLinkFunctionForGeneratedCodeAuraCharacter() {}
 	{
 		return AAuraCharacter::StaticClass();
 	}
-	AAuraCharacter::AAuraCharacter() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraCharacter);
 	AAuraCharacter::~AAuraCharacter() {}
 	struct Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Character_AuraCharacter_h_Statics
