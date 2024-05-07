@@ -57,7 +57,13 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAuraEnemy_Statics::NewProp_bHighlighted_MetaData[] = {
 		{ "Category", "AuraEnemy" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/* End Enemy Interface*/" },
+#endif
 		{ "ModuleRelativePath", "Public/Character/AuraEnemy.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "End Enemy Interface" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_AAuraEnemy_Statics::NewProp_bHighlighted_SetBit(void* Obj)
@@ -110,9 +116,9 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraEnemy, AAuraEnemy::StaticClass, TEXT("AAuraEnemy"), &Z_Registration_Info_UClass_AAuraEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraEnemy), 3385063012U) },
+		{ Z_Construct_UClass_AAuraEnemy, AAuraEnemy::StaticClass, TEXT("AAuraEnemy"), &Z_Registration_Info_UClass_AAuraEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraEnemy), 1548951289U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Character_AuraEnemy_h_1383659963(TEXT("/Script/Aura"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Character_AuraEnemy_h_4156137002(TEXT("/Script/Aura"),
 		Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
